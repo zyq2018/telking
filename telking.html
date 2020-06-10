@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>天勤入职测试考核</title>
+        <link href="css/telking.css" rel="stylesheet" />
+        <script src="js/jquery.js"></script>
+        <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+    </head>
+    <body>
+        <!-- S head -->
+        <div class="h">
+            <div class="h_left">
+                <p class="logo">L&nbsp;O&nbsp;G&nbsp;O</p>
+            </div>
+            <div class="h_right">
+                 <img class="image" src="img/settings.png" alt="img/settings.png" >
+                 <img class="image" src="img/bell.png" alt="img/bell.png" >
+                 <input type="button" class="logout" value="Log&nbsp;Out">
+            </div>
+        </div>
+        <!-- E Navigation -->
+
+        <!-- S Content -->
+        <div class="content">
+            <!-- S Navigation-->
+            <div class="nav">
+                <div class="nav_left">
+                    <p class="top">Audience&nbsp;Overview</p>
+                    <p class="down">Roseville, CA</p>
+                </div>
+                <div class="nav_right" id="nav_right">
+                    <ul>
+                        <li class="nav_links_active">DASHBOARD</li>
+                        <li>PROJECT</li>
+                        <li>CALENDAR</li>
+                        <li>MAILBOX</li>
+                        <li>SETTINGS</li>
+                    </ul>
+                </div>
+                <div class="clearFloat"></div>
+            </div>
+
+            <!-- S Carousel And SupportRequests -->
+            <div class="csr">
+                <div class="carousel">
+                    <div class="carousel_main">
+                    <a class="item" href="#"><img class="carousel_img" src="img/carousel.jpg" alt="img/carousel.jpg"></a>
+                    <a class="item" href="#"><img class="carousel_img" src="img/carousel.jpg" alt="img/carousel.jpg"></a>
+                    <a class="item" href="#"><img class="carousel_img" src="img/carousel.jpg" alt="img/carousel.jpg"></a>
+                    <a class="item" href="#"><img class="carousel_img" src="img/carousel.jpg" alt="img/carousel.jpg"></a>
+                    <a class="item" href="#"><img class="carousel_img" src="img/carousel.jpg" alt="img/carousel.jpg"></a>
+                    <ul class="rectangles">
+                        <li class="rectangle select">0</li>
+                        <li class="rectangle">1</li>
+                        <li class="rectangle">2</li>
+                        <li class="rectangle">3</li>
+                        <li class="rectangle">4</li>
+                    </ul>
+                    <div class="leftbtn"></div>
+                    <div class="rightbtn"></div>
+                    </div>
+                </div>
+
+                <div class="support">
+                    <div class="support_top">
+                        <p class="title">Support&nbsp;Requests</p>
+                        <input type="button" class="viewall" value="View&nbsp;All" />
+                    </div>
+                    <div class="support_content">
+                        <table>
+                            <tr>
+                                <th>TIME</th>
+                                <th>USER&nbsp;NAME</th>
+                                <th class="status">STATUS</th>
+                            </tr>
+                            <tr>
+                                <td>9:45pm</td>
+                                <td>info@design.com</td>
+                                <td class="status"><input type="button" class="solved" value="Solved" /></td>
+                            </tr>
+                            <tr> 
+                                <td>9:45pm</td>
+                                <td>info@design.com</td>
+                                <td class="status"><input type="button" class="solved" value="Solved" /></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="clearFloat"></div>
+            </div>
+
+            <!-- S ECharts -->
+            <div class="echarts">
+                <div class="line">
+                    <div class="title">曲线图数据展示</div>
+                    <div class="displayline" id="displayline"></div>
+                </div>
+                <div class="pie">
+                    <div class="title">饼状图数据展示</div>
+                    <div class="displaypie" id="displaypie"></div>
+                </div>
+                <div class="bar">
+                    <div class="title">柱状图数据展示</div>
+                    <div class="displaybar" id="displaybar"></div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- E Content -->
+
+
+        <!-- S Bottom -->
+        <div class="bottom">
+            <div class="bottom_content">
+                <p class="logo">L&nbsp;O&nbsp;G&nbsp;O</p>
+                <ul>
+                    <li><a class="bottom_links" href="#">NEWS</a></li>
+                    <li><a class="bottom_links" href="#">CHANNELS</a></li>
+                    <li><a class="bottom_links" href="#">OVERVIEW</a></li>
+                    <li><a class="bottom_links" href="#">TIMELINE</a></li>
+                </ul>
+                <ul>
+                    <li><a class="bottom_links" href="#">SPORT</a></li>
+                    <li><a class="bottom_links" href="#">CULTURE</a></li>
+                    <li><a class="bottom_links" href="#">NATURE</a></li>
+                    <li><a class="bottom_links" href="#">MUSIC</a></li>
+                </ul>
+                <ul>
+                    <li><a class="bottom_links" href="#">WEATHER</a></li>
+                    <li><a class="bottom_links" href="#">AUTOS</a></li>
+                    <li><a class="bottom_links" href="#">LOCAL</a></li>
+                    <li><a class="bottom_links" href="#">SHOP</a></li>
+                </ul>
+                <ul>
+                    <li><a class="bottom_links" href="#">FUTURE</a></li>
+                    <li><a class="bottom_links" href="#">FOOD</a></li>
+                    <li><a class="bottom_links" href="#">EARTH</a></li>
+                    <li><a class="bottom_links" href="#">TV</a></li>
+                </ul>
+                <ul>
+                    <li><a class="bottom_links" href="#">TRAVEL</a></li>
+                    <li><a class="bottom_links" href="#">RADIO</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- E Bottom -->
+    </body>
+    <script src="js/telking.js"></script>
+</html>
